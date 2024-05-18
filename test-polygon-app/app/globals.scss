@@ -1,0 +1,19 @@
+html[data-theme='light'] {
+  --main-color: #fff;
+  --text-color: #000;
+}
+
+html[data-theme='dark'] {
+  --main-color: #000;
+  --text-color: #fff;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--text-color);
+
+
+
+  transition: background-color 200ms linear,
+    color 500ms linear;
+}
