@@ -1,0 +1,22 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+    &.blue {
+        background-color: blue;
+        color: white;
+    }
+
+    &.red {
+        background-color: red;
+        color: white;
+    }
+}
+
+.error {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}

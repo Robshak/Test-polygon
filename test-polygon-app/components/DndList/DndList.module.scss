@@ -19,3 +19,37 @@
     border-radius: 2px;
     background-color: white;
 }
+
+.mainHeader {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mainDiv {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    margin: 4px 20px;
+}
+
+.column {
+    background-color: white;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.columnHeader {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.card {
+    background-color: lightgray;
+    margin: 3px 1px;
+    padding: 3px 4px;
+}
